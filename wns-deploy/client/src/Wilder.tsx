@@ -7,6 +7,8 @@ type WilderProps = {
   city: string
 }
 
+console.log("test");
+
 function Wilder({ city, name }: WilderProps) {
   return (
     <Card>
